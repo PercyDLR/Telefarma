@@ -13,8 +13,8 @@ public abstract class BaseDao {
             e.printStackTrace();
         }
 
-        final String user = "root";
-        final String pass = "root";
+        final String user = "percy";
+        final String pass = "percy";
         final String url = "jdbc:mysql://localhost:3306/telefarma";
 
         return DriverManager.getConnection(url, user, pass);
